@@ -1,0 +1,58 @@
+﻿# ==========================================
+# FLIGHT DATA WAREHOUSE - GIT SCOPE
+# Include: DATA, DATABASE, ETL SOURCE CODE
+# ==========================================
+
+# Python environments
+.venv/
+.venv*/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporary and runtime artifacts
+*.tmp
+*.bak
+*.log
+**/_checkpoints/
+**/_REVIEW_*/
+**/run_*/
+
+# Exclude raw, profiling, staging and intermediate working areas
+/01_RAW_DATA/
+/02_DATA_PROFILING/
+/03_STAGING_DATA/
+/04_CLEAN_DATA/
+/06_DW_DESIGN/
+/07_GOLD_DATA/
+
+# Exclude unrelated dashboard deliverables and audit files
+/09_FINAL_HANDOFF/03_DASHBOARD/
+/AERO_INSIGHTS_V2_AUDIT.zip
+/dashboard_source_inventory.csv
+
+# Keep only final handoff groups: database, datasets, ETL source
+/09_FINAL_HANDOFF/*
+!/09_FINAL_HANDOFF/04_DATABASE/
+!/09_FINAL_HANDOFF/05_DATASETS/
+!/09_FINAL_HANDOFF/06_ETL_SOURCE_CODE/
+
+# Full database backup will be distributed separately,
+# not stored in ordinary Git history
+/09_FINAL_HANDOFF/04_DATABASE/03_DATABASE_BACKUP/*full_backup*.sql.gz
+
+!/09_FINAL_HANDOFF/04_DATABASE/03_DATABASE_BACKUP/flight_dw_2025_full_backup_20261113_203444.sql.gz
+
+/08_SCRIPTS/

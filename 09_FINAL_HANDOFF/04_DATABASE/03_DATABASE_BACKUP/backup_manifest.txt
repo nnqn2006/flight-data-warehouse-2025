@@ -1,0 +1,13 @@
+﻿FLIGHT DW 2025 DATABASE BACKUP
+Backup timestamp: 2026-11-13 20:48:26
+Database: flight_dw_2025
+MySQL client: C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql.exe  Ver 8.0.46 for Win64 on x86_64 (MySQL Community Server - GPL)
+Base tables: 8
+Views: 6
+Storage engines: bridge_flight_weather_exposure:InnoDB,dim_airline:InnoDB,dim_airport:InnoDB,dim_date:InnoDB,dim_time:InnoDB,fact_airport_weather_hourly:InnoDB,fact_flight:InnoDB,map_bts_airport:InnoDB
+Estimated database size GB: 16.987
+Uncompressed full dump bytes: 7982126414
+Compressed full dump bytes: 784104850
+Consistency: single transaction; all base tables verified InnoDB
+Included: schema, data, views, triggers, routines, events
+GZIP integrity: PASS

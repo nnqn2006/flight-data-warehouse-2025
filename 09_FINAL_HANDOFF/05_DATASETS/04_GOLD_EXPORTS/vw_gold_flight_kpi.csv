@@ -1,0 +1,2 @@
+﻿CalendarYear,FlightRows,TotalFlights,CancelledFlights,DivertedFlights,EligibleDepartureFlights,DelayedDepartureFlights,DepartureDelayRatePct,EligibleArrivalFlights,DelayedArrivalFlights,ArrivalDelayRatePct,AvgSignedDepartureDelayMinutes,AvgSignedArrivalDelayMinutes
+2025,7001619,7001619,102876,19258,6898743,1499155,21.73,6879484,1534638,22.31,13.51,8.50

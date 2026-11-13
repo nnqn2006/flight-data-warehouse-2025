@@ -1,0 +1,7 @@
+﻿ViewName,RowsExported,Columns,FileName,SizeBytes,ElapsedSeconds,Status
+vw_gold_flight_kpi,1,13,vw_gold_flight_kpi.csv,360,302.43,PASS
+vw_gold_monthly_summary,12,15,vw_gold_monthly_summary.csv,1378,403.89,PASS
+vw_gold_airline_performance,14,16,vw_gold_airline_performance.csv,1585,366.97,PASS
+vw_gold_airport_role_performance,704,14,vw_gold_airport_role_performance.csv,77226,1117.32,PASS
+vw_gold_departure_hour_performance,25,8,vw_gold_departure_hour_performance.csv,1227,367.05,PASS
+vw_gold_monthly_airline_performance,168,15,vw_gold_monthly_airline_performance.csv,12321,458.36,PASS

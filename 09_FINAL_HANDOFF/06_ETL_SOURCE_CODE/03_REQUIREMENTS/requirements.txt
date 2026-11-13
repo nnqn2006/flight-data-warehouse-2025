@@ -1,0 +1,7 @@
+﻿mysql-connector-python==26.10.0
+numpy==1.26.4
+pandas==2.2.3
+pyarrow==26.0.1
+python-dateutil==4.0.0
+pytz==2026.6
+tzdata==2026.6
